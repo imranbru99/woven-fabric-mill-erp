@@ -1,0 +1,16 @@
+---
+description: Git author identity and no GitHub Actions for this project
+alwaysApply: true
+---
+
+# Developer identity
+
+- Git author and committer name: Imran Ahmed
+- Git email: me@imrandev.bd
+- Website: https://imrandev.bd
+- Never use an AI agent name as the Git author or committer.
+- Before any commit, confirm `git config user.name` and `git config user.email` print `Imran Ahmed` and `me@imrandev.bd`. If they do not, set them before committing.
+- Set both `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`, `GIT_COMMITTER_NAME`, and `GIT_COMMITTER_EMAIL` to that identity when creating a commit.
+- Preserve existing Git history unless the user explicitly asks to rewrite it.
+- Do not replace third-party authorship or license notices.
+- This project has no GitHub Actions. Do not add workflow files under `.github/workflows/`.

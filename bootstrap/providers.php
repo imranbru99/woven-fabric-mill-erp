@@ -1,0 +1,9 @@
+<?php
+
+return [
+    App\Providers\AppServiceProvider::class,
+    App\Providers\Filament\AdminPanelProvider::class,
+    App\Providers\Filament\BuyerPanelProvider::class,
+    App\Providers\Filament\SupplierPanelProvider::class,
+    App\Providers\Filament\FloorPanelProvider::class,
+];

@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Database\Factories;
+
+use App\Models\Page;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends Factory<Page>
+ */
+class PageFactory extends Factory
+{
+    protected $model = Page::class;
+
+    public function definition(): array
+    {
+        return [
+            'title' => fake()->words(3, true),
+            'slug' => fake()->unique()->slug(),
+            'locale' => 'en',
+            'body' => fake()->paragraph(),
+            'meta_title' => fake()->words(3, true),
+            'meta_description' => fake()->paragraph(),
+            'is_published' => false,
+            'template' => 'page',
+        ];
+    }
+}
