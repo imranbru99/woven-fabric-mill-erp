@@ -65,13 +65,7 @@ Roll RL-1401 is on air-jet 14, woven by Karim Mia on shift A. Behind that row ar
 
 ## Look through it
 
-The same page in Bangla. Live counts come from the machines and the articles, not from a brochure. The date in the footer is the Bangladesh calendar. 14 April 2026 is 1 Boishakh 1433. The day this mill was seeded read ১ অগ্রহায়ণ ১৪৩৩.
-
-<p align="center">
-  <img src="docs/images/home-bn.png" alt="Bangla homepage of Dhaka Woven Mills" width="920">
-</p>
-
-Each public construction has its own page: weave, composition, EPI, PPI, GSM, width and ends. The ends and the GSM are calculated when the article is saved, not typed.
+Each public construction has its own page: weave, composition, EPI, PPI, GSM, width and ends. The ends and the GSM are calculated when the article is saved, not typed. Live counts on the homepage come from the machines and the articles.
 
 <p align="center">
   <img src="docs/images/fabric.png" alt="Poplin technical page: 133 by 72, 127.84 GSM, 8378 ends" width="920">
@@ -81,12 +75,6 @@ A buyer asks for a sample on the site. The form creates a lead, an inquiry and a
 
 <p align="center">
   <img src="docs/images/sample.png" alt="Sample request form that becomes a lead and an inquiry" width="920">
-</p>
-
-The catalogue in Bangla, for the buyer who reads the site in either language.
-
-<p align="center">
-  <img src="docs/images/fabrics.png" alt="Fabric catalogue with Bangla navigation" width="920">
 </p>
 
 Monday morning. Yesterday’s metres, the efficiency, the stoppage minutes, and the issues that cannot wait: a loom stopped two hours, a yarn lot that failed the lab, a critical nozzle out of stock, an ETP reading outside the limit, an order already late, a warp shortage of 133.57 kg, beam WB-14 running out, roll RL-1401 graded B.
